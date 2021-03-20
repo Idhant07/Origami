@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(000, 255, 255);
+}
+.Header{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkolivegreen;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.PaperMenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.PaperMenu img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Dragon{
+    border-radius: 20px;
+    background-color: teal;
+    width: 350px;
+    font-family: fantasy;
+}
+
+.Eagle{
+    border-radius: 20px;
+    background-color: teal;
+    width: 350px;
+    font-family: fantasy;
+}
