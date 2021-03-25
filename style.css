@@ -1,22 +1,27 @@
 body{
     background-color: rgb(000, 255, 255);
 }
+h1{
+    margin: 20px;
+}
 .Header{
     background-color: darkcyan;
     display: flex;
     justify-content: space-between;
 }
 .Menu{
-    display: flex;
-    justify-content: space-between;
-    background-color: darkolivegreen;
+    justify-content: space-evenly;
+    background-color: darkslategrey;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 400;
     color: white;
+    margin-right: 20px;
+    padding: 20px;
 }
 h2{
     text-align: center;
+    padding: 20px;
 }
 .PaperMenu{
     display: flex;
@@ -39,4 +44,10 @@ h2{
     background-color: teal;
     width: 350px;
     font-family: fantasy;
+}
+a:link{
+    color: coral;
+} 
+a:visited{
+    color: crimson;
 }
