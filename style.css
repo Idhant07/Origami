@@ -37,6 +37,23 @@ h2{
     background-color: teal;
     width: 350px;
     font-family: fantasy;
+    position: relative;
+}
+
+.Dragon p{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.Dragon:hover p{
+    opacity: 1;
+}
+
+.Dragon:hover img{
+    opacity: 0.3;
 }
 
 .Eagle{
@@ -44,10 +61,28 @@ h2{
     background-color: teal;
     width: 350px;
     font-family: fantasy;
+    position: relative;
 }
+.Eagle p{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.Eagle:hover p{
+    opacity: 1;
+}
+
+.Eagle:hover img{
+    opacity: 0.3;
+}
+
 a:link{
     color: coral;
 } 
 a:visited{
     color: crimson;
 }
+
